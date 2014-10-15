@@ -3,7 +3,7 @@ import java.sql.*;
 /*
  * 建立数据库连接返回connection
  */
-public static final String QJToBJChange(String QJStr)      
+public static final String QJToBJChange(String QJStr)//十月_微微凉      
 {          
 	char[] chr = QJStr.toCharArray();          
 	String str = "";          

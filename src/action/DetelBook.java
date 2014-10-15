@@ -3,7 +3,7 @@ package action;
 import java.sql.Connection;
 import java.sql.Statement;
 
-import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ActionSupport;//十月_微微凉
 
 @SuppressWarnings("serial")
 public class DetelBook extends ActionSupport{
