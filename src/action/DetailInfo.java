@@ -54,9 +54,8 @@ public class DetailInfo extends ActionSupport{
 		stmt.close();
         con.close();
 	}
-	/*
-	 * 取得书目的详细信息
-	 */
+	//取得书目的详细信息
+	
 	public void GetBook() throws Exception {
 		DaoCon dao = new DaoCon();
 		Connection con = dao.GetConn();

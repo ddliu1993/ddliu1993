@@ -13,7 +13,7 @@ public class GetBook extends ActionSupport{
 	private String[] bookname = null;
 	private int num=0;
 	private int authorid =0;
-	//获得书籍的抓取函数
+	//获得书籍的抓取的函数组
 	public String[] getBookname() {
 		return bookname;
 	}
