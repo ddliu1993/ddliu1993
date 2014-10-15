@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-@SuppressWarnings("serial")
+@SuppressWarnings("serial")//dasadqwqwsssssa阿斯顿
 public class DetailInfo extends ActionSupport{
 	private String authorid;
 	private String title;

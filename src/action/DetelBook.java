@@ -41,6 +41,7 @@ public class DetelBook extends ActionSupport{
 		System.out.println(mLinkedSet);          
 		return sb.toString().substring(0, sb.toString().length() - 1);      
 	}
+	//删除书籍主函数asd
 	public void DetBook() throws Exception {
 		DaoCon dao = new DaoCon();
 		Connection con = dao.GetConn();
@@ -51,6 +52,7 @@ public class DetelBook extends ActionSupport{
 		stmt.close();
         con.close();
 	}
+	public static void main()
 	public String execute(){
 		try {
 			DetBook();
