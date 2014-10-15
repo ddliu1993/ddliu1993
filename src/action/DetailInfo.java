@@ -78,7 +78,7 @@ public class DetailInfo extends ActionSupport{
 			GetAuthor();
 			GetBook();
 		} catch (Exception e) {
-			// TODO 自动生成的 catch 块
+			// TODO 自动生成的 catch 块.
 			e.printStackTrace();
 		}
 		return "success";

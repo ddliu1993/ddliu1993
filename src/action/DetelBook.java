@@ -41,7 +41,7 @@ public class DetelBook extends ActionSupport{
 		System.out.println(mLinkedSet);          
 		return sb.toString().substring(0, sb.toString().length() - 1);      
 	}
-	//删除书籍主函数
+	//删除书籍函数
 	public void DetBook() throws Exception {
 		DaoCon dao = new DaoCon();
 		Connection con = dao.GetConn();
