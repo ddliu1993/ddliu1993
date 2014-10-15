@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-@SuppressWarnings("serial")//dasadqwqwsssssa阿斯顿
+@SuppressWarnings("serial")
 public class DetailInfo extends ActionSupport{
 	private String authorid;
 	private String title;
@@ -36,7 +36,7 @@ public class DetailInfo extends ActionSupport{
 	public void setBook(String[] book) {
 		this.book = book;
 	}
-	/**
+	/*
 	 * 取得作者的详细信息
 	 */
 	public void GetAuthor() throws Exception {
@@ -54,7 +54,7 @@ public class DetailInfo extends ActionSupport{
 		stmt.close();
         con.close();
 	}
-	/**
+	/*
 	 * 取得书目的详细信息
 	 */
 	public void GetBook() throws Exception {

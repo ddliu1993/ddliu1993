@@ -13,6 +13,7 @@ public class GetBook extends ActionSupport{
 	private String[] bookname = null;
 	private int num=0;
 	private int authorid =0;
+	//获得书籍的抓取函数
 	public String[] getBookname() {
 		return bookname;
 	}
@@ -37,9 +38,8 @@ public class GetBook extends ActionSupport{
 	public void setAuthorid(int authorid) {
 		this.authorid = authorid;
 	}
-	/**
+	/*
 	 * 查询作者id
-	 * @throws Exception
 	 */
 	public void GetID() throws Exception{
 		DaoCon dao = new DaoCon();
@@ -54,9 +54,8 @@ public class GetBook extends ActionSupport{
 		stmt.close();
         con.close();
 	}
-	/**
+	/*
 	 * 查询
-	 * @throws Exception
 	 */
 	public void QueryBook() throws Exception {
 		DaoCon dao = new DaoCon();
@@ -77,6 +76,8 @@ public class GetBook extends ActionSupport{
 		stmt.close();
         con.close();
 	}
+
+	//保护函数
 	public String execute(){
 			try {
 				GetID();
