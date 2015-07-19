@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 import com.opensymphony.xwork2.ActionSupport;//十月_微微凉
 
-@SuppressWarnings("serial")
+@SuppressWarnings("serial")//阿斯顿
 public class DetelBook extends ActionSupport{
 	private String title;
 	private int i =0;
